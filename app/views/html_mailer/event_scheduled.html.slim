@@ -1,0 +1,24 @@
+tr
+  td.logo-container
+    = image_tag attachments['gymcloud-flat-logo.png'].url
+tr
+  td.top-block-small align="center" style="background-image: url(#{attachments['blue-bg-with-icons.jpg'].url}); "
+    table.seven.columns height="100px"
+      tr
+        td.center valign="middle"
+          = image_tag attachments['event-email-icon.png'].url
+        td.title.center
+          | Event Scheduled
+tr
+  td.bottom-block align="center"
+    center
+      - if @event.personal_workout.user.user_profile.avatar.thumb.url
+        img.avatar src=@event.personal_workout.user.user_profile.avatar.thumb.url
+      .message
+        | #{@creator_name} scheduled event
+        a<> href="#"
+          | "#{@event.personal_workout.name}"
+        | on #{cool_readable_date(@event.begins_at)}
+
+      a.blue-border-button href=workout_event_url(@event.begins_at)
+        | VIEW CALENDAR

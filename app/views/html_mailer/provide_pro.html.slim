@@ -1,0 +1,18 @@
+tr
+  td.logo-container
+    = image_tag attachments['gymcloud-flat-logo.png'].url
+tr
+  td.top-block-small align="center" style="background-image: url(#{attachments['blue-bg-with-icons.jpg'].url}); "
+    table.seven.columns height="100px"
+      tr
+        td.center valign="middle"
+          = image_tag attachments['event-email-icon.png'].url
+        td.title.center
+          | Client need a Pro
+tr
+  td.bottom-block align="center"
+    center
+      - if @user.user_profile.avatar.thumb.url
+        img.avatar src=@user.user_profile.avatar.thumb.url
+      .message
+        | #{@user.user_profile.full_name} ask for a Pro.

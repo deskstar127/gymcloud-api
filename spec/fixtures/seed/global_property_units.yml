@@ -1,0 +1,66 @@
+---
+  -
+    symbol: "sets"
+    units: ["sets"]
+    default: "sets"
+    save: "sets"
+  -
+    symbol: "reps"
+    units: ["reps"]
+    default: "reps"
+    save: "reps"
+  -
+    symbol: "weight"
+    units: ["kg", "lbs"]
+    default: "lbs"
+    save: "kg"
+  -
+    symbol: "height"
+    units: ["in", "cm"]
+    default: "in"
+    save: "mm"
+  -
+    symbol: "distance"
+    units: ["ft", "mi", "m", "km"]
+    default: "ft"
+    save: "mm"
+  -
+    symbol: "time"
+    units: ["s", "min", "hr"]
+    default: "s"
+    save: "s"
+  -
+    symbol: "heart_rate"
+    units: ["bpm"]
+    default: "bpm"
+    save: "bpm"
+  -
+    symbol: "rest_period"
+    units: ["s", "min", "hr"]
+    default: "s"
+    save: "s"
+  -
+    symbol: "rounds"
+    units: ["rd"]
+    default: "rd"
+    save: "rd"
+  -
+    symbol: "percentage"
+    units: ["%"]
+    default: "%"
+    save: "%"
+  -
+    symbol: "rpe"
+    units: ["rpe"]
+    default: "rpe"
+    save: "rpe"
+  -
+    symbol: "rom"
+    units: ["°"]
+    default: "°"
+    save: "°"
+  -
+    symbol: "duration"
+    units: ["mmss"]
+    default: "mmss"
+    save: "mmss"

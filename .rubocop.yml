@@ -1,0 +1,69 @@
+AllCops:
+  TargetRubyVersion: 2.3
+  DisplayCopNames: true
+  DisplayStyleGuide: true
+  Exclude:
+    - 'db/**/**'
+    - 'config/**/*'
+    - 'Guardfile'
+    - 'spec/rails_helper.rb'
+    - 'spec/spec_helper.rb'
+    - 'spec/models/regression/**/*'
+    - 'spec/controllers/regression/**/*'
+    - 'app/api/concerns/api_guard.rb'
+    - 'app/models/ability.rb'
+    - 'app/models/concerns/has_template_version.rb'
+    - 'app/api/gymcloud_api/v2/namespaces/users.rb'
+    - 'app/controllers/google_oauth2_controller.rb'
+    - 'app/api/gymcloud_api/v2/namespaces/workout_events.rb'
+
+Style/EmptyLinesAroundModuleBody:
+  Enabled: false
+
+Style/EmptyLinesAroundClassBody:
+  Enabled: false
+
+Style/EmptyLinesAroundBlockBody:
+  Enabled: false
+
+Style/ClassAndModuleChildren:
+  Enabled: false
+
+Style/Documentation:
+  Enabled: false
+
+Style/IndentationWidth:
+  Enabled: false
+
+Style/TrailingBlankLines:
+  Enabled: false
+
+Style/AlignHash:
+  Enabled: false
+
+Style/ClassVars:
+  Enabled: false
+
+Style/DoubleNegation:
+  Enabled: false
+
+Style/SpaceInsideHashLiteralBraces:
+  EnforcedStyle: no_space
+
+Style/MultilineOperationIndentation:
+  EnforcedStyle: indented
+
+Style/MultilineMethodCallIndentation:
+  EnforcedStyle: indented
+
+Style/AlignParameters:
+  EnforcedStyle: with_fixed_indentation
+
+Style/SymbolProc:
+  Enabled: false
+
+Metrics/AbcSize:
+  Enabled: false
+
+Style/FrozenStringLiteralComment:
+  Enabled: false

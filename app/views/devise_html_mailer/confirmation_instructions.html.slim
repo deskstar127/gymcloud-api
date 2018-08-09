@@ -1,0 +1,22 @@
+tr
+  td.logo-container
+    = image_tag attachments['gymcloud-flat-logo.png'].url
+tr
+  td.top-block-small align="center" style="background-image: url(#{attachments['blue-bg-with-icons.jpg'].url}); "
+    table.twelve.columns height="100px"
+      tr
+        td.title.center
+          | Welcome to GymCloud
+tr
+  td.bottom-block align="center"
+    center
+      | Welcome #{@resource.user_profile.full_name}!
+      br
+      br
+      span style="color: #434343"
+        | You can confirm your account email through the link below
+      br
+      br
+      br
+      br
+      = link_to 'CONFIRM ACCOUNT', confirmation_on_frontend(@token), class: 'green-button'

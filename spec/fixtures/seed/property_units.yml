@@ -1,0 +1,64 @@
+---
+  -
+    short_name: "in"
+    name: "Inches"
+  -
+    short_name: "ft"
+    name: "Feet"
+  -
+    short_name: "mi"
+    name: "Miles"
+  -
+    short_name: "mm"
+    name: "Millimetres"
+  -
+    short_name: "cm"
+    name: "Centimetres"
+  -
+    short_name: "m"
+    name: "Metres"
+  -
+    short_name: "km"
+    name: "Kilometres"
+  -
+    short_name: "kg"
+    name: "Kilograms"
+  -
+    short_name: "lbs"
+    name: "Pounds"
+  -
+    short_name: "s"
+    name: "Seconds"
+  -
+    short_name: "min"
+    name: "Minutes"
+  -
+    short_name: "hr"
+    name: "Hours"
+  -
+    short_name: "%"
+    name: "Percents"
+  -
+    short_name: "times"
+    name: "Times"
+  -
+    short_name: "bpm"
+    name: "Beats Per Minute"
+  -
+    short_name: "sets"
+    name: "Sets"
+  -
+    short_name: "reps"
+    name: "Reps"
+  -
+    short_name: "rd"
+    name: "Rounds"
+  -
+    short_name: "rpe"
+    name: "RPE"
+  -
+    short_name: "°"
+    name: "Degrees"
+  -
+    short_name: "mmss"
+    name: "MM:SS"

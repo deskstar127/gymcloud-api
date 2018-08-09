@@ -1,0 +1,10 @@
+---
+  -
+    klass: "Exercise"
+    name: "Exercises"
+  -
+    klass: "WorkoutTemplate"
+    name: "Workout Templates"
+  -
+    klass: "ProgramTemplate"
+    name: "Program Templates"

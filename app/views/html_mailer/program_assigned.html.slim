@@ -1,0 +1,25 @@
+tr
+  td.logo-container
+    = image_tag attachments['gymcloud-flat-logo.png'].url
+tr
+  td.top-block-small align="center" style="background-image: url(#{attachments['blue-bg-with-icons.jpg'].url}); "
+    table.seven.columns height="100px"
+      tr
+        td.center.header align='center' valign='middle'
+          = image_tag attachments['program-assigned-icon.png'].url
+          span.title
+            | Program Assigned
+
+tr
+  td.center.bottom-block align='center'
+    center
+      span.message
+        | #{@program.user.user_profile.full_name} assigned to you
+        br
+        a<> href=personal_program_url(@program.id)
+          = @program.name
+        | Program
+
+    center
+      a.blue-border-button href=personal_program_url(@program.id)
+        | VIEW PROGRAM

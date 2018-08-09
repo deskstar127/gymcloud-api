@@ -1,0 +1,53 @@
+---
+  -
+    symbol: "sets"
+    name: "Sets"
+    position: 0
+  -
+    symbol: "reps"
+    name: "Reps"
+    position: 1
+  -
+    symbol: "weight"
+    name: "Weight"
+    position: 2
+  -
+    symbol: "height"
+    name: "Height"
+    position: 3
+  -
+    symbol: "distance"
+    name: "Distance"
+    position: 4
+  -
+    symbol: "time"
+    name: "Work Period"
+    position: 5
+  -
+    symbol: "heart_rate"
+    name: "Heart rate"
+    position: 6
+  -
+    symbol: "rpe"
+    name: "RPE"
+    position: 7
+  -
+    symbol: "rest_period"
+    name: "Rest Period"
+    position: 8
+  -
+    symbol: "rounds"
+    name: "Rounds"
+    position: 9
+  -
+    symbol: "percentage"
+    name: "Percentage"
+    position: 10
+  -
+    symbol: "rom"
+    name: "ROM"
+    position: 11
+  -
+    symbol: "duration"
+    name: "Duration"
+    position: 12

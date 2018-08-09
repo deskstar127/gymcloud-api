@@ -1,0 +1,17 @@
+tr
+  td.top-block align="center" style="background-image: url(#{attachments['blue-bg-with-icons.jpg'].url}); "
+    table.twelve.columns height='267' width='100%' background=attachments['blue-bg-with-icons.jpg'].url
+      tr
+        td.center.header align='center' valign='middle'
+          = image_tag attachments['logo-white.png'].url, class: 'centered-image', style: 'margin-top:30px;'
+          .you-invited
+            | You've been invited to GymCloud
+tr
+  td.bottom-block align="center"
+    .ready-to-get-started
+      | Ready to get started? Sign up and get started using the system
+
+    a.get-started-button href=inivitation_url(@token, @resource)
+      span.phrase
+        | GET STARTED
+      =image_tag attachments['get-started-arrow.png'].url, style: 'clear:none;'

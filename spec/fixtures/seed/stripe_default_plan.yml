@@ -1,0 +1,7 @@
+name: 'Client Standart Plan'
+amount: 599
+currency: 'usd'
+interval: 'month'
+trial_period_days: 14
+metadata:
+  default: 'true'

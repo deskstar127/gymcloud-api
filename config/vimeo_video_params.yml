@@ -1,0 +1,30 @@
+default_settings: &default_settings
+  privacy:
+    view: "disable"
+    embed: "public"
+    comments: "nobody"
+    add: false
+    download: false
+  embed:
+    buttons:
+      share: false
+      embed: false
+      watchlater: false
+      like: false
+    title:
+      owner: "hide"
+      portrait: "hide"
+      name: "hide"
+    logos:
+      vimeo: false
+      custom:
+        active: false
+        sticky: false
+  review_link: false
+
+development:
+  <<: *default_settings
+test:
+  <<: *default_settings
+production:
+  <<: *default_settings

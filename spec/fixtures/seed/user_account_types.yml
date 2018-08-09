@@ -1,0 +1,13 @@
+---
+  -
+    name: "Personal Trainer"
+    icon: "gc-acc-personal-trainer"
+  -
+    name: "Coach"
+    icon: "gc-acc-str-conditioning"
+  -
+    name: "Athletic Trainer"
+    icon: "gc-acc-athletic-trainer"
+  -
+    name: "Physical Therapist"
+    icon: "gc-acc-physical-therapist"

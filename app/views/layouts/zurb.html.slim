@@ -1,0 +1,30 @@
+doctype Strict
+html xmlns='http://www.w3.org/1999/xhtml'
+  head
+    meta content='text/html; charset=utf-8' http-equiv='Content-Type' /
+    meta content='width=device-width' name='viewport' /
+    link href='/assets/email.css' rel='stylesheet' /
+  body
+    table.body.content
+      tr
+        td
+          table.twelve.columns
+            tr
+              td.upper-small-text align="left" valign='top'
+                | Welcome to GymCloud - online training tool
+              td.upper-small-text.view-in-browser align="right" valign='top'
+                | View this email in your browser
+
+      = yield
+
+      tr
+        td.center align="center" valign='bottom'
+          center.bottom-text
+            a> href='#'
+              | Unsubscribe
+            | from this list or
+            a<> href='#'
+              | Update
+            | subscription preferences
+            br
+            | Copyright &copy; #{Date.today.year} GymCloud, All rights reserved
